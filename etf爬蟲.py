@@ -9,7 +9,7 @@ with open(r'C:\Users\User\Desktop\HW01 all.csv', newline='') as csvfile:
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 import time
-for x in A[16::]:
+for x in A:
     #先呼叫chromdedriver
     main_driver = webdriver.Chrome(r"C:\Users\User\Desktop\chromedriver.exe")  # 注意你們放CHROMEDRIVER的位置
     #告訴chromedriver 等下要找的element 如果沒有找到，要等10秒讓他們生完
